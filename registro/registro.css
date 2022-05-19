@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+body {
+  background: url("images/fondo.jpg") no-repeat fixed;
+
+  /* es lo mismo que lo siguiente: */
+  /* background-image: url("images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+header {
+  height: 25%;
+  background-color: rgba(154, 210, 243, 0.425);
+  border-radius: 10px 10px 0 0;
+}
+
+#logo {
+  padding-top: 47px;
+  margin-left: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(240, 252, 250);
+  text-align: left;
+}
+
+#contenedor-form {
+  width: 320px;
+  height: 450px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 8.5%;
+  background-color: #7f6ee257;
+  border-radius: 10px;
+}
+
+.enviar {
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: rgba(32, 8, 99, 0.616);
+  font-family: "Nunito Sans", sans-serif;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#inputs {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#user {
+  margin-bottom: 20px;
+}
+
+#redes-sociales {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+a {
+  margin-inline: 17px;
+}
+
+.redes {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+}
+
+.redes:hover {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.plus {
+  border-radius: 15px;
+  width: 35px;
+  height: 35px;
+  margin-left: 170px;
+  opacity: 90%;
+}
+.plus:hover {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.recuperar-pass {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+}
+input {
+  width: 200px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background: none;
+  color: #aaa;
+}
+input:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.input_icon [type="text"],
+[type="password"] {
+  padding-left: 40px;
+}
+.input_icon {
+  position: relative;
+}
+i {
+  position: absolute;
+  left: 65px;
+  top: 8px;
+  padding: 2px;
+  color: #aaa;
+  transition: 0.3s;
+}
+.input_icon [type="text"]:focus + i {
+  color: dodgerblue;
+}
+.input_icon [type="password"]:focus + i {
+  color: dodgerblue;
+}
+label {
+  color: white;
+}
+.recuperar-pass:hover {
+  font-size: 11px;
+  transition: 0.4s;
+}
