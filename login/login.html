@@ -5,44 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
     <title>Login</title>
   </head>
   <body>
-    <main>
-      <article id="contenedor-form">
-        <header>
-          <h1 id="logo">Espifer Technology</h1>
-          <a href=""
-            ><img class="plus" src="images/plus.png" alt="registrarse"
-          /></a>
-        </header>
-        <form action="" class="form">
-          <div id="inputs">
-            <input id="user" type="text" placeholder="Usuario" required />
+    <section id="contenedor-form">
+      <header>
+        <h1 id="logo">Iniciar sesión</h1>
+        <a href=""
+          ><img class="plus" src="images/plus.png" alt="registrarse"
+        /></a>
+      </header>
+      <form action="" class="form">
+        <div id="inputs">
+          <div class="input_icon">
+            <input
+              id="user"
+              type="text"
+              placeholder="Usuario"
+              autocomplete="off"
+              required
+            />
+            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+          </div>
+          <div class="input_icon">
             <input
               id="pass"
               type="password"
               placeholder="Contraseña"
+              autocomplete="off"
               required
             />
+            <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
           </div>
-          <div id="redes-sociales">
-            <a href="">
-              <img class="redes" src="images/facebook.png" alt="Facebook" />
-            </a>
-            <a href="">
-              <img class="redes" src="images/Google_Plus.png" alt="Google +" />
-            </a>
-            <a href="">
-              <img class="redes" src="images/twiter.png" alt="Twiter" />
-            </a>
-          </div>
-          <button class="enviar" type="submit">Ingresar</button>
-          <footer>
-            <a class="recuperar-pass" href="">Olvidaste tu contraseña?</a>
-          </footer>
-        </form>
-      </article>
-    </main>
+        </div>
+        <div id="redes-sociales">
+          <a href="">
+            <img class="redes" src="images/facebook.png" alt="Facebook" />
+          </a>
+          <a href="">
+            <img class="redes" src="images/Google_Plus.png" alt="Google +" />
+          </a>
+          <a href="">
+            <img class="redes" src="images/twiter.png" alt="Twiter" />
+          </a>
+        </div>
+        <input class="enviar" type="submit" value="Ingresar" />
+        <footer>
+          <a class="recuperar-pass" href="">Olvidaste tu contraseña?</a>
+        </footer>
+      </form>
+    </section>
   </body>
 </html>
