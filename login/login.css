@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+body {
+  background: url("images/fondo.jpg") no-repeat fixed;
+  /* es lo mismo que lo siguiente: */
+  /* background-image: url("images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+header {
+  height: 25%;
+  background-color: rgba(154, 210, 243, 0.425);
+  border-radius: 10px 10px 0 0;
+}
+
+#logo {
+  padding-top: 35px;
+  margin-left: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(240, 252, 250);
+  text-align: left;
+}
+
+article {
+  width: 320px;
+  height: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 8.5%;
+  background-color: #7f6ee257;
+  border-radius: 10px;
+}
+
+.enviar {
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: rgba(32, 8, 99, 0.616);
+  font-family: "Nunito Sans", sans-serif;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#inputs {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#user {
+  margin-bottom: 20px;
+}
+
+#redes-sociales {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+a {
+  margin-inline: 17px;
+}
+
+.redes {
+  width: 35px;
+  height: 35px;
+}
+
+.plus {
+  width: 35px;
+  height: 35px;
+  margin-left: 170px;
+  opacity: 90%;
+}
+
+.recuperar-pass {
+  text-decoration: none;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+}
+input {
+  width: 200px;
+  background: none;
+  border-bottom: 1px;
+}
+label {
+  color: white;
+}
