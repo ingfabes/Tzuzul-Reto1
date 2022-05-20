@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  height: 25%;
+  height: 20%;
   background-color: rgba(154, 210, 243, 0.425);
   border-radius: 10px 10px 0 0;
 }
@@ -24,10 +24,10 @@ header {
 
 #contenedor-form {
   width: 320px;
-  height: 450px;
+  height: 600px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 8.5%;
+  margin-top: 2%;
   background-color: #7f6ee257;
   border-radius: 10px;
 }
@@ -45,21 +45,22 @@ header {
 }
 
 #inputs {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#user {
+#nombre,
+#user,
+#apellido,
+#email,
+#edad,
+#pass {
   margin-bottom: 20px;
 }
 
 #redes-sociales {
   margin-top: 30px;
   margin-bottom: 25px;
-}
-
-a {
-  margin-inline: 17px;
 }
 
 .redes {
@@ -73,25 +74,10 @@ a {
   box-shadow: 0 0 8px 0 dodgerblue;
 }
 
-.plus {
-  border-radius: 15px;
-  width: 35px;
-  height: 35px;
-  margin-left: 170px;
-  opacity: 90%;
-}
-.plus:hover {
-  border-color: dodgerblue;
-  box-shadow: 0 0 8px 0 dodgerblue;
-}
-
-.recuperar-pass {
-  text-decoration: none;
-  color: aliceblue;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 10px;
-}
-input {
+input[type="text"],
+[type="password"],
+[type="email"],
+[type="number"] {
   width: 200px;
   border: 2px solid #aaa;
   border-radius: 4px;
@@ -107,7 +93,9 @@ input:focus {
   box-shadow: 0 0 8px 0 dodgerblue;
 }
 .input_icon [type="text"],
-[type="password"] {
+[type="password"],
+[type="email"],
+[type="number"] {
   padding-left: 40px;
 }
 .input_icon {
@@ -127,10 +115,38 @@ i {
 .input_icon [type="password"]:focus + i {
   color: dodgerblue;
 }
-label {
-  color: white;
+.input_icon [type="email"]:focus + i {
+  color: dodgerblue;
 }
-.recuperar-pass:hover {
-  font-size: 11px;
-  transition: 0.4s;
+.input_icon [type="number"]:focus + i {
+  color: dodgerblue;
+}
+label {
+  width: auto;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+}
+#termino {
+  padding-top: 10px;
+  width: 12px;
+}
+.term {
+  margin-bottom: 20px;
+}
+footer {
+  text-align: right;
+  padding-right: 62px;
+}
+.iniciar-sesion {
+  width: auto;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+  transition: 0.5s;
+}
+.iniciar-sesion:hover {
+  font-size: 12px;
 }
